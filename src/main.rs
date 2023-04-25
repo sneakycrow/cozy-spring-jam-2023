@@ -2,8 +2,6 @@ use bevy::DefaultPlugins;
 use bevy::prelude::*;
 use bevy_svg::prelude::*;
 
-mod components;
-
 fn main() {
     App::new()
         .insert_resource(Msaa::Sample4)
