@@ -21,7 +21,7 @@ fn setup(
     commands.spawn(Camera2dBundle::default());
     commands.spawn(Svg2dBundle {
         svg,
-        origin: Origin::Center, // Origin::TopLeft is the default
+        origin: Origin::Center,
         ..Default::default()
     });
 }
