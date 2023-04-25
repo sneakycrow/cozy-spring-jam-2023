@@ -17,7 +17,7 @@ fn setup(
     mut commands: Commands,
     asset_server: Res<AssetServer>,
 ) {
-    let svg = asset_server.load("logo_v2.svg");
+    let svg = asset_server.load("logo.svg");
     commands.spawn(Camera2dBundle::default());
     commands.spawn(Svg2dBundle {
         svg,
